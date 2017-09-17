@@ -1,0 +1,60 @@
+/* --------------------------------- Styles --------------------------------- */
+
+html {
+    background-color: rgb(40, 40, 40);
+    overflow: hidden;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 10%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+/* --------------------------------- Layout --------------------------------- */
+.col {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#resume {
+    clear: both;
+    margin-bottom: 5%;
+}
+
+#language {
+    position: absolute;
+    bottom: 0;
+}
+
+#four0four {
+    font-size: 200px;
+}
+
+/* --------------------------------- Fonts ---------------------------------- */
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../font/Ailerons-Typeface.otf');
+}
